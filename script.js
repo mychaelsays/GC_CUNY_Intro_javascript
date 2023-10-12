@@ -5,6 +5,7 @@ $("#joke").append("<p>Q. What do you call a fake noodle? <br /> A. An impasta</p
 $("#toggleJokes").click(function() {
     $("#joke").toggle();
 });
+
 const response = prompt("Are these jokes good or bad?");
 if (response === "bad") {
     $("h1").html("The Worst Jokes! :(");
