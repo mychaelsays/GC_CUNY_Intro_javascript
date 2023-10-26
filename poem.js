@@ -1,24 +1,37 @@
-$("#info").html("<p>The info will go here.</p>");
-let line1, line1Text; 
-line1 = [{text:  "What", info: "Anaphora: The repetition of a word or phrase at the beginning of (usually successive) lines. For example, the use of What in the first four lines."}, 
-    {text: "hurrying"}, {text: "human"}, {text: "tides"}, 
-    {text: "or"}, {text: "day"}, {text: "or"}, {text: "night!"}];
-line1Text = "<blockquote><p>"; 
-line1.map(function(word){
-    let wordString;
-  wordString = word.text;
-  if (word.info) {
-    wordString = "<a href='#' data-info='" + word.info + "'>" + wordString + "</a>";
-  }
-  line1Text = line1Text + wordString + " ";
-});
-line1Text = line1Text + "<br />(line 2 would go here)</p></blockquote>";
-$("#poem").html(line1Text);
-$("#poem a").click(function(){
+//Part 1 - Define the extra information section for the poem
+$("#info").html("<p>Extra info will go here.</p>");
+
+// Part 2 - Display the poem and allow for clicking on words
+$.getJSON("poem.json", function(data){ // data variable is the JSON object
+  let poemText; // Define a new variable to hold all text
+  poemText = "<blockquote><p>"; // Open the starting tags
+  // Now you can iterate (map) over the data variable’s .lines property:
+  data.lines.map(function(line){ // We get a variable, line
+    // Define a blank lineText.
+    let lineText = "";
+    // Now iterate over each line. This part should be familiar to you from before
+    line.map(function(word){
+      let wordString;
+      wordString = word.text;
+      if (word.info){
+        wordString = "<a href='#' data-info='" + word.info + "'>" + wordString + "</a>";
+      }
+      lineText = lineText + wordString + " "; // Add the word to the lineText variable with spacing
+    });
+    // Add lineText with a line break to the poemText
+    poemText = poemText + lineText + "<br/>";
+  });
+  // Close the poemText tags
+  poemText = poemText + "</p></blockquote>";
+  // Replace the content of #poem
+  $("#poem").html(poemText);
+  // Now that we have the data, we can add the click event to the poem
+  $("#poem a").click(function(){
     let infoText, clickedWord, clickedInfo;
     clickedWord = $( this ).text();
+    // .data("info") looks for the data-info HTML attribute
     clickedInfo = $( this ).data("info");
     infoText = clickedInfo;
     $("#info").html(infoText);
   });
-  
+}); // Close the getJSON method and callback function
