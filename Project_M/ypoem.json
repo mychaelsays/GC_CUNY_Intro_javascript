@@ -1,0 +1,113 @@
+{
+    "lines": [
+[
+    {"text": "The"},
+    {"text": "animals"},
+    {"text": "are"},
+    {"text": "in"},
+    {"text": "the"},
+    {"text": "sky,"},
+    {"text": "trees"},
+    {"text": "and"},
+    {"text": "ground."}
+],
+[
+    {"text": "The"},
+    {"text": "birds"},
+    {"text": "take"},
+    {"text": "the"},
+    {"text": "sky,"}
+],
+[    
+    {"text": "Squirrels", "info":"All over NYC"},
+    {"text": "are"},
+    {"text": "in"},
+    {"text": "the"},
+    {"text": "trees,"}
+],
+[    
+    {"text": "Wolves", "info":"Yuna loves wolves."},
+    {"text": "are"},
+    {"text": "on"},
+    {"text": "the"},
+    {"text": "ground."}
+],
+[
+    {"text": "The"},
+    {"text": "animals"},
+    {"text": "are"},
+    {"text": "in"},
+    {"text": "the"},
+    {"text": "sky,"},
+    {"text": "trees"},
+    {"text": "and"},
+    {"text": "ground."}
+],
+[
+    {"text": "They"},
+    {"text": "are"},
+    {"text": "all"},
+    {"text": "around!"}
+],
+[
+    
+],
+[
+    {"text": "Wolves"},
+    {"text": "are"},
+    {"text": "hunting"},
+    {"text": "in"},
+    {"text": "the"},
+    {"text": "winter."}
+],
+[
+    {"text": "Birds"},
+    {"text": "are"},
+    {"text": "gathering"},
+    {"text": "to"},
+    {"text": "eat"},
+    {"text": "prey."}
+],
+[
+    {"text": "Wolves"},
+    {"text": "are"},
+    {"text": "eating"},
+    {"text": "moose.", "info":"Map"}
+],
+[
+    {"text": "Geese", "info":"Map"},
+    {"text": "are"},
+    {"text": "migrating"},
+    {"text": "south."}
+],
+[
+    
+],
+[
+    {"text": "The"},
+    {"text": "beauty"},
+    {"text": "of"},
+    {"text": "nature!"} 
+],
+[
+    {"text": "The"},
+    {"text": "birds"},
+    {"text": "are"},
+    {"text": "singing"}, 
+    {"text": "their"},
+    {"text": "songs."} 
+],
+[
+    {"text": "The"},
+    {"text": "beauty"},
+    {"text": "of"},
+    {"text": "nature!"} 
+],
+[
+    {"text": "The"},
+    {"text": "days"},
+    {"text": "are"},
+    {"text": "getting"},
+    {"text": "long."}
+]
+]}
