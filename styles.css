@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(239, 190, 238, 0.731);
+}
+
+h1 {    
+    font-size: 50px;
+    font-weight: bold;
+}
+
+P {
+    font-size: 30px;
+}
+.formatText {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        white-space: pre-line;
+      }
+
+#joke {
+        border: 5px solid rgb(23, 85, 209);
+        background-color: rgb(195, 221, 118);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        color: rgb(11, 7, 1);
+      }
+#poem {
+        border: 5px solid rgb(17, 212, 202);
+        background-color: rgb(208, 230, 14);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0 auto;
+        color: rgb(202, 10, 10);
+}

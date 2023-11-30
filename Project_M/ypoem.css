@@ -23,3 +23,6 @@ P {
     font-family: 'Roboto', sans-serif;
     white-space: pre-line;
   }
+  #map {
+    height: 400px;
+  }
