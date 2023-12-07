@@ -1,26 +1,26 @@
 body {
-    background-color: rgba(128, 224, 141, 0.731);
+    background-color: rgba(140, 213, 150, 0.731);
 }
 
 h1 {    
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'verdana', sans-serif;
     white-space: pre-line;
 }
 
 P {
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'verdana', sans-serif;
     white-space: pre-line;
 }
 
 .formatText {
     color: rgb(255, 255, 255);
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'verdana', sans-serif;
     white-space: pre-line;
   }
   #map {

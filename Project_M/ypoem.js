@@ -24,7 +24,6 @@ $.getJSON("ypoem.json", function(data){
   $("#poem a").click(function(){
     let infoText, clickedWord, clickedInfo;
     clickedWord = $( this ).text();
-   
     clickedInfo = $( this ).data("info");
     infoText = clickedInfo;
     $("#info").html(infoText);

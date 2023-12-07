@@ -19,14 +19,14 @@
     {"text": "sky,"}
 ],
 [    
-    {"text": "Squirrels", "info":"All over NYC"},
+    {"text": "Squirrels", "info":"Eastern Gray Squirrel, simply the gray squirrel, is native to eastern North America. They are all over in NYC, especially in Astoria Park! "},
     {"text": "are"},
     {"text": "in"},
     {"text": "the"},
     {"text": "trees,"}
 ],
 [    
-    {"text": "Wolves", "info":"Yuna loves wolves."},
+    {"text": "Wolves", "info":"Gray Wolves. Today gray wolves have populations in Alaska, northern Michigan, nothernIdaho, western Montana, and the Yellowstone area of Wyoming. "},
     {"text": "are"},
     {"text": "on"},
     {"text": "the"},
@@ -53,7 +53,7 @@
     
 ],
 [
-    {"text": "Wolves"},
+    {"text": "Wolves", "info":"American Red Wolves. With about 35 individuals left in the wild in 2023. The most critically endangered wolf in the entire world."},
     {"text": "are"},
     {"text": "hunting"},
     {"text": "in"},
@@ -72,12 +72,12 @@
     {"text": "Wolves"},
     {"text": "are"},
     {"text": "eating"},
-    {"text": "moose.", "info":"Map"}
+    {"text": "moose.", "info":"The Moose. The tallest and second-largest land mammal in North America. In some areas, moose are the primary source of food for wolves."}
 ],
 [
-    {"text": "Geese", "info":"Map"},
+    {"text": "Geese", "info":"The Canada Goose. Known for its fall migration, they will be flying south from their native land of Canada to overwinter in the United States."},
     {"text": "are"},
-    {"text": "migrating"},
+    {"text": "migrating", "info":"The reason Canada geese do migration is for food availability. They can go up to 1,500 miles and fly about 30 miles an hour."},
     {"text": "south."}
 ],
 [
